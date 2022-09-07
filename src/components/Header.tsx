@@ -6,7 +6,7 @@ const Header = () => {
       <Box
         color='#F7FAFC'
         bg='#6B46C1'
-        pt='90px'
+        pt='50px'
         pb='190px'
         px='32px'
         textAlign='center'

@@ -1,27 +1,5 @@
-import {
-  Box,
-  Flex,
-  Text,
-  Heading,
-  Button,
-  Stack,
-  HStack,
-  Icon,
-  StackProps,
-} from '@chakra-ui/react';
-import { Features } from './Features';
-import { CheckIcon } from '../icons/Icons';
-
-export const ListItem = (props: StackProps) => {
-  const { children, ...rest } = props;
-
-  return (
-    <HStack as='li' spacing='20px' {...rest}>
-      <Icon as={CheckIcon} w='22px' h='22px' />
-      <Text>{children}</Text>
-    </HStack>
-  );
-};
+import { Box, Flex, Text, Heading, Button, Stack } from '@chakra-ui/react';
+import ListItem from './ListItem';
 
 const Pricing = () => {
   return (
