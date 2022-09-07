@@ -8,8 +8,8 @@ import Feature from './Feature';
 
 export const Features = () => {
   return (
-    <Box maxW='1024px' m='auto' pt='60px' pb='32px'>
-      <HStack px='48px' spacing='20px'>
+    <Box maxW='1024px' m='auto' pt='60px' pb='8'>
+      <HStack px='12' spacing='5'>
         <Feature icon={MoneyBackGuaranteeIcon}>
           30 days money back guarantee
         </Feature>
