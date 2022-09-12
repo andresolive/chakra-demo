@@ -42,10 +42,10 @@ const Pricing = () => {
               business.
             </Text>
             <Stack as='ul' spacing='5' pt='6'>
-              <ListItem>International calling and messaging API</ListItem>
-              <ListItem>Additional phone numbers</ListItem>
-              <ListItem>Automated messages via Zapier</ListItem>
-              <ListItem>24/7 support and consulting</ListItem>
+              <ListItem>International calling and messaging API.</ListItem>
+              <ListItem>Additional phone numbers.</ListItem>
+              <ListItem>Automated messages via Zapier.</ListItem>
+              <ListItem>24/7 support and consulting.</ListItem>
             </Stack>
           </Box>
         </Flex>
